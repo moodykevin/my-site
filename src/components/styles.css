@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&effect=3d-float');
+
+.titleText {
+    font-family: 'Audiowide'; 
+}
+
+.banner {
+    padding: "10px";
+    position: relative;
+    z-index: 1;
+}
+
+.banner-link {
+    font-size: 20px;
+}
+
+.rotate {
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-name: yoyo;
+    animation-timing-function: linear;
+  }
+
+html {
+    height: 100%;
+}
+
+.home-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.about-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.code-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.thoughts-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.dnd-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.home-top {
+    z-index: 1;
+    position: relative;
+}
+
+.home-bottom {
+    z-index: 1;
+    position: relative;
+}
+
+.contact-card {
+    z-index: 1;
+    position: relative;
+}
+
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.helloThere {
+    color: rgb(235, 235, 235);
+    font-size: 80px;
+}
+
+.imwill {
+    font-size: 60px;
+}
+
+.uva_white {
+    height: 43vmin;
+    pointer-events: none;
+}
+
+.social-link {
+    color: rgb(222, 222, 222) 
+}
+
+.social-link:hover {
+    color: rgb(253, 253, 253)
+}
+
+.about-me-title {
+    color: white;
+    font-size: 40px;
+}
+
+.bodyText {
+    color: rgb(255, 255, 255);
+}
+
+.about-section {
+    z-index: 1;
+    position: relative;
+}
+
+.code-section {
+    z-index: 1;
+    position: relative;
+}
+
+.thoughts-section {
+    z-index: 1;
+    position: relative;
+}
+
+.dnd-section {
+    z-index: 1;
+    position: relative;
+}
+
+.lefty {
+    text-align: left;
+}
+
+.caption {
+    font-size: 15px;
+}
+
+.resume-button {
+    background-color: rgb(193, 193, 193);
+    color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.stack-bar {
+    background-color: #212528;
+    z-index: 2;
+    outline: 2px solid black;
+}
+
+.stack-section {
+    background-color: #212528;
+    z-index: 2;
+}
+
+.gh-link {
+    color: white; 
+}
+
+.gh-link:hover {
+    color: lightgray;
+}
+
+.tabset {
+    z-index: 2;
+    color: rgb(207, 207, 207);
+    background-color: #212528;
+}
+
+.dnd-icon {
+    color: white;
+}
+
+.pagetitle {
+    font-size: 50px;
+}
+
+.about-text {
+    font-size: 23px;
+}
