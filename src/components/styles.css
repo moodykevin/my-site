@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&effect=3d-float');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide');
 
 .titleText {
     font-family: 'Audiowide'; 
@@ -11,7 +11,15 @@
 }
 
 .banner-link {
-    font-size: 20px;
+    font-size: 20px;   
+}
+
+.banner-link:hover {
+    color: rgb(244, 244, 244);
+}
+
+.colorBanner {
+    background-color: rgb(19, 25, 59);
 }
 
 .rotate {
@@ -95,6 +103,15 @@ html {
     font-size: 80px;
 }
 
+.white-lefty-about-text {
+    color: rgb(235, 235, 235);
+}
+
+.white-header-text {
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+
 .imwill {
     font-size: 60px;
 }
@@ -109,16 +126,16 @@ html {
 }
 
 .social-link:hover {
-    color: rgb(253, 253, 253)
+    color: rgb(244, 244, 244);
 }
 
 .about-me-title {
-    color: white;
+    color: rgb(244, 244, 244);
     font-size: 40px;
 }
 
 .bodyText {
-    color: rgb(255, 255, 255);
+    color: rgb(244, 244, 244);
 }
 
 .about-section {

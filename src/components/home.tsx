@@ -1,12 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import KM_Goodpic from './imgs/KM_Goodpic.jpg'
 import uva_white from './imgs/uva_white.png'
+import bluebackground_long from './imgs/bluebackground_long.png'
 import { AiOutlineLinkedin, AiOutlineInstagram, } from "react-icons/ai"
 
 const home = () => {
     return (
         <section style={{
-            backgroundImage: 'url(https://storage.needpix.com/rsynced_images/gradient-blue.jpg)'
+            backgroundImage: `url(${bluebackground_long})`
         }}
         >
             <Container fluid className="home-container">

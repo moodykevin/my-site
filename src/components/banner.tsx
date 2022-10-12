@@ -7,13 +7,8 @@ import "./styles.css"
 const Banner = () => {
     return (
         <div className="banner">
-            <Navbar bg="dark" expand="md" variant="dark" id="banner" style={{ padding: "0px" }} >
+            <Navbar className='colorBanner' expand="md" variant="dark" id="banner" style={{ padding: "0px" }} >
                 <Navbar.Brand href="/" >
-                    {/* <img
-                        src={logo}
-                        width="150"
-                        height="150"
-                    /> */}
                 </Navbar.Brand>
                 <Navbar.Brand href="/" className="justify-content-center, titleText">
                     <h1>Kevin Moody</h1>
