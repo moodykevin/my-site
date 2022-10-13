@@ -4,13 +4,55 @@
     font-family: 'Audiowide'; 
 }
 
+.helloThere {
+    color: rgb(235, 235, 235);
+    font-size: 80px;
+}
+
+.about-text {
+    color:rgb(235, 235, 235);
+    font-size: 23px;
+}
+
+.graphicdesign-section {
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+
+.white-lefty-about-text {
+    color: rgb(235, 235, 235);
+    font-size: 20px;
+}
+
+.white-header-text {
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+
 .white {
-    color:rgb(255, 255, 255);
+    color:rgb(235, 235, 235);
 }
 
 .homeText {
     text-align: "left";
-    color: rgb(255, 255, 255);
+    color: rgb(235, 235, 235);
+}
+
+.social-link {
+    color: rgb(222, 222, 222) 
+}
+
+.social-link:hover {
+    color: rgb(244, 244, 244);
+}
+
+.about-me-title {
+    color: rgb(235, 235, 235);
+    font-size: 40px;
+}
+
+.bodyText {
+    color: rgb(235, 235, 235);
 }
 
 .banner {
@@ -28,20 +70,13 @@
 }
 
 .colorBanner {
-    background-color: rgb(19, 25, 59);
+    background-color: rgb(19, 27, 59);
 }
 
 .coverImg {
     height: 200px;
     width: 200px;
 }
-
-.rotate {
-    animation-duration: .5s;
-    animation-iteration-count: 1;
-    animation-name: yoyo;
-    animation-timing-function: linear;
-  }
 
 html {
     height: 100%;
@@ -71,15 +106,7 @@ html {
     padding-top: 30px;
 }
 
-.thoughts-container {
-    height: 100%;
-    position: relative;
-    background-position: top center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.dnd-container {
+.graphicdesign-container {
     height: 100%;
     position: relative;
     background-position: top center;
@@ -102,56 +129,11 @@ html {
     position: relative;
 }
 
-#tsparticles {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-}
-
-.helloThere {
-    color: rgb(235, 235, 235);
-    font-size: 80px;
-}
-
-.white-lefty-about-text {
-    color: rgb(235, 235, 235);
-    font-size: 20px;
-}
-
-.white-header-text {
-    color: rgb(235, 235, 235);
-    font-size: 60px;
-}
-
-.imwill {
-    font-size: 60px;
-}
-
 .uva_white {
     height: 43vmin;
     pointer-events: none;
 }
 
-.social-link {
-    color: rgb(222, 222, 222) 
-}
-
-.social-link:hover {
-    color: rgb(244, 244, 244);
-}
-
-.about-me-title {
-    color: rgb(244, 244, 244);
-    font-size: 40px;
-}
-
-.bodyText {
-    color: rgb(244, 244, 244);
-}
 
 .about-section {
     z-index: 1;
@@ -159,16 +141,6 @@ html {
 }
 
 .code-section {
-    z-index: 1;
-    position: relative;
-}
-
-.thoughts-section {
-    z-index: 1;
-    position: relative;
-}
-
-.dnd-section {
     z-index: 1;
     position: relative;
 }
@@ -189,17 +161,6 @@ html {
     font-size: 20px;
 }
 
-.stack-bar {
-    background-color: #212528;
-    z-index: 2;
-    outline: 2px solid black;
-}
-
-.stack-section {
-    background-color: #212528;
-    z-index: 2;
-}
-
 .gh-link {
     color: white; 
 }
@@ -214,15 +175,8 @@ html {
     background-color: #212528;
 }
 
-.dnd-icon {
-    color: white;
-}
-
 .pagetitle {
     font-size: 50px;
 }
 
-.about-text {
-    font-size: 23px;
-}
 

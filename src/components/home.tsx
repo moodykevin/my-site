@@ -2,11 +2,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import KM_Goodpic from './imgs/KM_Goodpic.jpg'
 import uva_white from './imgs/uva_white.png'
 import bluebackground_long from './imgs/bluebackground_long.png'
-import uva_color from './imgs/uva_color.png'
-import raytheon_color from './imgs/raytheon_color.png'
-import wahoops_color from './imgs/wahoops_color.png'
-import snapback_color from './imgs/snapback_color.png'
-
 import { AiOutlineLinkedin, AiOutlineInstagram, } from "react-icons/ai"
 
 const home = () => {
@@ -29,9 +24,8 @@ const home = () => {
                             <h2 className="homeText">Computer Science student<br></br>at the University of Virginia</h2>
                         </Col>
                         <Col md={5} className="headshot">
-                            <img src={KM_Goodpic} width="400" height="400"></img>
-                        </Col>
-                        
+                            <img src={KM_Goodpic} alt="" width="400" height="400"></img>
+                        </Col>   
                     </Row>
                 </Container>
                 <br></br><br></br><br></br><br></br><br></br><br></br>
@@ -40,7 +34,7 @@ const home = () => {
                         <Col md={5} className="uva_white">
                             <br></br>
                             <br></br>
-                            <img src={uva_white} className="uva_white"/>
+                            <img src={uva_white} alt="" className="uva_white"/>
                         </Col>
                         <Col md={7} className="mainCard">
                             <h2 className="homeText">I'm a Third-Year in the School of Engineering<br></br> and Applied Sciences.</h2>
@@ -73,8 +67,8 @@ const home = () => {
                             <h2 className="bodyText">
                                 My Other Socials:
                             </h2>
-                            <a target="_blank" href="https://www.linkedin.com/in/kevin-moody/" className="social-link"><AiOutlineLinkedin size={60}/></a>
-                            <a target="_blank" href="https://www.instagram.com/kevinmood.y/" className="social-link"><AiOutlineInstagram size={60}/></a>
+                            <a href="https://www.linkedin.com/in/kevin-moody/" className="social-link"><AiOutlineLinkedin size={60}/></a>
+                            <a href="https://www.instagram.com/kevinmood.y/" className="social-link"><AiOutlineInstagram size={60}/></a>
                         </Col>
                     </Row>
                 </Container>

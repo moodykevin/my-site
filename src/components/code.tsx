@@ -22,7 +22,7 @@ const code = () => {
                         <Row>
                             <Col md="5">
                                 <BsWindow size="250" color="white"/><br></br><br></br>
-                                <h1 className="white">This Site!</h1>
+                                <h1 className="white">This Site</h1>
 
                                 <h5 className="white">
                                     This website was built in the fall of 2022. As a self-guided
@@ -43,8 +43,8 @@ const code = () => {
                                     Django as an introduction to frameworks and software architectural patterns,
                                     and is deployed through Heroku.
                                 </h5>
-                                <a target="_blank" href="https://github.com/willredding314/5e-playtest-arena" ><AiFillGithub className="gh-link" size="50"/></a>
-                                <a target="_blank" href="https://github.com/willredding314/OasisProject" ><AiOutlineLink className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://newlouslist-a-26.herokuapp.com/" ><AiOutlineLink className="gh-link" size="50"/></a>
 
                             </Col>
                         </Row>
@@ -59,7 +59,7 @@ const code = () => {
                                     composed of a data path, opcode decoder, CPU, ALU, registers, and more. The
                                     computer was able to write and run programs using simplified machine language.
                                 </h5>
-                                <a target="_blank" href="https://github.com/willredding314/VidoImageProcessing" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
@@ -73,7 +73,7 @@ const code = () => {
                                     trees, graphs, and more. During the semester, we learned x86 and even wrote snippets
                                     of machine code through an online simulator.
                                 </h5>
-                                <a target="_blank" href="https://github.com/willredding314/OasisProject" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
 
                             </Col>
                         </Row>
