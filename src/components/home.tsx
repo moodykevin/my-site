@@ -2,6 +2,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 import KM_Goodpic from './imgs/KM_Goodpic.jpg'
 import uva_white from './imgs/uva_white.png'
 import bluebackground_long from './imgs/bluebackground_long.png'
+import uva_color from './imgs/uva_color.png'
+import raytheon_color from './imgs/raytheon_color.png'
+import wahoops_color from './imgs/wahoops_color.png'
+import snapback_color from './imgs/snapback_color.png'
+
 import { AiOutlineLinkedin, AiOutlineInstagram, } from "react-icons/ai"
 
 const home = () => {
@@ -10,53 +15,52 @@ const home = () => {
             backgroundImage: `url(${bluebackground_long})`
         }}
         >
-            <Container fluid className="home-container">
-                <Container className="home-top">
+            <Container fluid className="home-container"  >
+                <Container className="home-top"style={{ textAlign: "left" }}>
                     <Row>
+                    <Col md={7} className="mainCard">
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <h1 className="helloThere">Hey,<br></br>I'm Kevin Moody.</h1>
+                            <br></br>
+                            <br></br>
+                            <h2 className="homeText">Computer Science student<br></br>at the University of Virginia</h2>
+                        </Col>
                         <Col md={5} className="headshot">
                             <img src={KM_Goodpic} width="400" height="400"></img>
                         </Col>
-                        <Col md={7} className="mainCard">
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                            <h1 className="helloThere">Hey, I'm Kevin Moody</h1>
-                            <br></br>
-                            <br></br>
-                            <h2 className="bodyText">I'm a Computer Science Student at the University of Virginia</h2>
-                        </Col>
+                        
                     </Row>
                 </Container>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <Container fluid className="home-bottom">
+                <br></br><br></br><br></br><br></br><br></br><br></br>
+                <Container className="home-top"style={{ textAlign: "left" }}>
                     <Row>
-                        <Col md="6" className="home-desc">
-                            <h2 className="bodyText">From back home in Massachusetts, I now go to school at the University of Virginia</h2>
-                            <br></br>
-                            <br></br>
-                            <h3 className="bodyText">
-                                I'm currently studying computer science at the University of Virginia.
-                            </h3>
-                            <br></br>
-                            <h3 className="bodyText">
-                                I've worked in languages like Java, Python, C++, MATLAB, and Typescript, 
-                                and have experience with technologies like Django and React. 
-                            </h3>
-                            <br></br>
-                            <h3 className="bodyText">
-                                I also work as a part time graphic designer for Snapback Sports and Wahoops, you can view some of my work here.
-                            </h3>
-                        </Col>
-                        <Col md="6" className="uva_white">
+                        <Col md={5} className="uva_white">
                             <br></br>
                             <br></br>
                             <img src={uva_white} className="uva_white"/>
                         </Col>
+                        <Col md={7} className="mainCard">
+                            <h2 className="homeText">I'm a Third-Year in the School of Engineering<br></br> and Applied Sciences.</h2>
+                            <br></br><br></br>
+                            <h4 className="homeText">
+                                I built this website as a way to present my portfolio, as well as to improve my own programming ability.
+                            </h4>
+                            <br></br><br></br>
+                            <h4 className="homeText">
+                                I've worked in languages like Java, Python, C++, MATLAB, and Typescript, 
+                                and have experience with technologies like Django and React. 
+                            </h4>
+                            <br></br><br></br>
+                            <h4 className="homeText">
+                                I also work as a part time graphic designer, you can view some of my work in the "Graphic Design" tab.
+                            </h4>
+                        </Col>
+                       
+
+                        
                     </Row>
                 </Container>
                 <br></br>

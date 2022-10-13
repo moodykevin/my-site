@@ -12,7 +12,10 @@ const graphicdesign = () => {
         <div style={{
             backgroundImage: `url(${bluebackground_long})`
         }}>
-        <h1 className='helloThere'> Graphic Design</h1>
+        <h1 className='white-header-text' >Graphic Design</h1>
+            <br></br><br></br><br></br><br></br>
+        <h1 className='helloThere'> This page is currently<br></br> under development.</h1>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
     )
 }

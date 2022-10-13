@@ -4,6 +4,7 @@ import Home from './components/home';
 import About from './components/about';
 import Code from './components/code';
 import GraphicDesign from './components/graphicdesign';
+import Objective from './components/objective';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -17,6 +18,8 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/graphicdesign" element={<GraphicDesign />}></Route>
           <Route path="/code" element={<Code />}></Route>
+          <Route path="/objective" element={<Objective />}></Route>
+
         </Routes> 
       </div>
     </BrowserRouter>

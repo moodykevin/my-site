@@ -4,6 +4,15 @@
     font-family: 'Audiowide'; 
 }
 
+.white {
+    color:rgb(255, 255, 255);
+}
+
+.homeText {
+    text-align: "left";
+    color: rgb(255, 255, 255);
+}
+
 .banner {
     padding: "10px";
     position: relative;
@@ -20,6 +29,11 @@
 
 .colorBanner {
     background-color: rgb(19, 25, 59);
+}
+
+.coverImg {
+    height: 200px;
+    width: 200px;
 }
 
 .rotate {
@@ -105,6 +119,7 @@ html {
 
 .white-lefty-about-text {
     color: rgb(235, 235, 235);
+    font-size: 20px;
 }
 
 .white-header-text {
@@ -210,3 +225,4 @@ html {
 .about-text {
     font-size: 23px;
 }
+
