@@ -1,7 +1,8 @@
 import bluebackground_long from './imgs/bluebackground_long.png'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { Row, Col, Container } from 'react-bootstrap'
-import SB_rebrand from './imgs/SB-rebrand.png'
+import KM_Wilson from './imgs/KM_Wilson.png'
+import KM_Family from './imgs/KM_Family.png'
+import KM_Will from './imgs/KM_Will.png'
 
 
 const about = () => {
@@ -39,8 +40,8 @@ const about = () => {
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={SB_rebrand} width="350" height="350"></img>
-                            <figcaption className="white caption">IMG_CAPTION_1_STRING</figcaption>
+                            <img src={KM_Family} width="350" height="350"></img>
+                            <figcaption className="white caption">A picture of my family at a recent wedding</figcaption>
                         </figure>
                     </Col>
                 </Row>
@@ -50,8 +51,8 @@ const about = () => {
                         <br></br>
                         <br></br>
                         <figure>
-                            <img src={SB_rebrand} width="350" height="350"></img>
-                            <figcaption className="white caption">IMG_CAPTION_2_STRING</figcaption>
+                            <img src={KM_Will} width="350" height="350"></img>
+                            <figcaption className="white caption">A picture with fellow overachiever, Will Redding</figcaption>
                         </figure>
                     </Col>
                     <Col md="8">
@@ -83,8 +84,8 @@ const about = () => {
                     </Col>
                     <Col md="4">
                         <figure>
-                            <img src={SB_rebrand} width="350" height="355"></img>
-                            <figcaption className="white caption">IMG_CAPTION_3_STRING</figcaption>
+                            <img src={KM_Wilson} width="350" height="355"></img>
+                            <figcaption className="white caption">A picture with some of my best friends from UVA</figcaption>
                         </figure>
                     </Col>
                 </Row>

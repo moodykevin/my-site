@@ -36,6 +36,7 @@ const code = () => {
                             <Col md="5">
                                 <ImCalendar size="240" color="white"/><br></br><br></br>
                                 <h1 className="white">Course Scheduling</h1>
+                                <h3 className="white">(IN DEVELOPMENT)</h3>
                                 <h5 className="white">
                                     As a final project for my Software Engineering course, my team and I
                                     are building a website to replace a former course scheduling site that
@@ -59,7 +60,7 @@ const code = () => {
                                     composed of a data path, opcode decoder, CPU, ALU, registers, and more. The
                                     computer was able to write and run programs using simplified machine language.
                                 </h5>
-                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/moodykevin/digital_logic_design" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
@@ -73,7 +74,7 @@ const code = () => {
                                     trees, graphs, and more. During the semester, we learned x86 and even wrote snippets
                                     of machine code through an online simulator.
                                 </h5>
-                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/moodykevin/prog_data_representation" ><AiFillGithub className="gh-link" size="50"/></a>
 
                             </Col>
                         </Row>

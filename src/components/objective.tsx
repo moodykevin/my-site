@@ -52,9 +52,9 @@ const objective = () => {
                     <Col>
                         <h2 className ='objective-text' style={{color:'white', fontSize: '30px'}}>
                             Computer Science student at the University of Virginia, looking to devlop my programming
-                            and professional skills. Seeking a professional opportunity where I can contribute
+                            and professional skills. <br></br><br></br>Seeking a professional opportunity where I can contribute
                             to the organizational goals through my analytical skills and knowledge acquired through
-                            my studies. 
+                            my coursework. 
                         </h2>
                         <b></b>
                     </Col>

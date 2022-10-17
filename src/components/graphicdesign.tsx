@@ -3,6 +3,13 @@ import uva_color from './imgs/uva_color.png'
 import snapback_color from './imgs/snapback_color.png'
 import SB_rebrand from './imgs/SB-rebrand.png'
 import wahoops_color from './imgs/wahoops_color.png'
+import SB_portfolio from './imgs/SB_portfolio.png'
+import SB_portfolio_glow from './imgs/SB_portfolio_glow.png'
+import wahoops_portfolio from './imgs/wahoops_portfolio.png'
+import wahoops_portfolio_glow from './imgs/wahoops_portfolio_glow.png'
+import UVA_portfolio from './imgs/UVA_portfolio.png'
+import UVA_portfolio_glow from './imgs/UVA_portfolio_glow.png'
+
 import { AiFillYoutube, AiOutlineLink, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 
 import bluebackground_long from './imgs/bluebackground_long.png'
@@ -34,7 +41,7 @@ const graphicdesign = () => {
                     </Col>
                     <Col className="mainCard">
                             <br></br><br></br><br></br><br></br><br></br>
-                            <img src={SB_rebrand} alt="" width="600" height="600"></img>
+                            <img src={SB_portfolio_glow} alt="" width="600" height="600"></img>
                     </Col>
                     
                 </Row>
@@ -45,18 +52,19 @@ const graphicdesign = () => {
                     <Col xs={1}></Col>
                     <Col xs={6} className="lacrosse">
                         <img src={uva_color} alt="" width="300" height="300"></img>
-                        <h1 className="helloThere">UVA Men's Lacrosse</h1>
+                        <h1 className="helloThere">UVA Athletics</h1>
                         <h4 className="white">
                             Last year, I was a volunteer manager for the Virginia Men's Lacrosse team.
                             Coming off of back-to-back national championships, I was eager to join
                             and contribute anything I was able to the program. Eventually, I began working
                             as a graphic designer for the team, creating multiple graphics and videos for
-                            internal use, as well as for social media purposes.
+                            internal use, as well as for social media purposes. I began to work for the 
+                            whole athletics department last spring and have focused mainly with Swim and Dive.
                         </h4>
                         <a href="https://virginiasports.com/sports/mlax/" ><AiOutlineLink className="gh-link" size="50"/></a>
                     </Col>
                     <Col className="mainCard">
-                            <img src={SB_rebrand} alt="" width="600" height="600"></img>
+                            <img src={UVA_portfolio_glow} alt="" width="600" height="600"></img>
                     </Col>
                 </Row>
         </Container>
@@ -82,7 +90,7 @@ const graphicdesign = () => {
                     </Col>
                     <Col className="mainCard">
                         <br></br>
-                            <img src={SB_rebrand} alt="" width="600" height="600"></img>
+                            <img src={wahoops_portfolio_glow} alt="" width="600" height="600"></img>
                     </Col>
                 </Row>
         </Container>

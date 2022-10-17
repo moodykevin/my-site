@@ -1,5 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import KM_Goodpic from './imgs/KM_Goodpic.jpg'
+import KM_Goodpic_Glow from './imgs/KM_Goodpic_Glow.png'
+
 import uva_white from './imgs/uva_white.png'
 import bluebackground_long from './imgs/bluebackground_long.png'
 import { AiOutlineLinkedin, AiOutlineInstagram, } from "react-icons/ai"
@@ -24,7 +26,8 @@ const home = () => {
                             <h2 className="homeText">Computer Science student<br></br>at the University of Virginia</h2>
                         </Col>
                         <Col md={5} className="headshot">
-                            <img src={KM_Goodpic} alt="" width="400" height="400"></img>
+                            
+                            <img src={KM_Goodpic_Glow} alt="" width="500" height="500"></img>
                         </Col>   
                     </Row>
                 </Container>
