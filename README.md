@@ -1,2 +1,2 @@
 # Kevin Moody - Portfolio
-Find it at kevinmoody.com (tentative)
+Find it at moodykevin.com

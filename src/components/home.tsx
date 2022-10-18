@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import KM_Goodpic from './imgs/KM_Goodpic.jpg'
-import KM_Goodpic_Glow from './imgs/KM_Goodpic_Glow.png'
+import KM_headshot1_square_glow from './imgs/KM_headshot1_square_glow.png'
 
 import uva_white from './imgs/uva_white.png'
 import bluebackground_long from './imgs/bluebackground_long.png'
@@ -27,7 +27,7 @@ const home = () => {
                         </Col>
                         <Col md={5} className="headshot">
                             
-                            <img src={KM_Goodpic_Glow} alt="" width="500" height="500"></img>
+                            <img src={KM_headshot1_square_glow} alt="" width="500" height="500"></img>
                         </Col>   
                     </Row>
                 </Container>
