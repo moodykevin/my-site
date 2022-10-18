@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import KM_Goodpic from './imgs/KM_Goodpic.jpg'
 import KM_headshot1_square_glow from './imgs/KM_headshot1_square_glow.png'
 
 import uva_white from './imgs/uva_white.png'
@@ -13,7 +12,7 @@ const home = () => {
         }}
         >
             <Container fluid className="home-container"  >
-                <Container className="home-top"style={{ textAlign: "left" }}>
+                <Container fluid className="home-top"style={{ textAlign: "left" }}>
                     <Row>
                     <Col md={7} className="mainCard">
                             <br></br>
@@ -32,14 +31,13 @@ const home = () => {
                     </Row>
                 </Container>
                 <br></br><br></br><br></br><br></br><br></br><br></br>
-                <Container className="home-top"style={{ textAlign: "left" }}>
+                <Container fluid className="home-bottom"style={{ textAlign: "left" }}>
                     <Row>
-                        <Col md={5} className="uva_white">
-                            <br></br>
-                            <br></br>
-                            <img src={uva_white} alt="" className="uva_white"/>
+                        <Col md='6' className="uva_white">
+                            <img src={uva_white} alt="" width="500" height="500"></img>
+                            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                         </Col>
-                        <Col md={7} className="mainCard">
+                        <Col md='6' className="mainCard">
                             <h2 className="homeText">I'm a Third-Year in the School of Engineering<br></br> and Applied Sciences.</h2>
                             <br></br><br></br>
                             <h4 className="homeText">
@@ -55,9 +53,6 @@ const home = () => {
                                 I also work as a part time graphic designer, you can view some of my work in the "Graphic Design" tab.
                             </h4>
                         </Col>
-                       
-
-                        
                     </Row>
                 </Container>
                 <br></br>
