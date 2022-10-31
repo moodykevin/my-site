@@ -21,19 +21,19 @@ const Banner = () => {
                         <Nav.Link className="banner-link" href="/">
                             <ImHome size="25"/> Home    
                         </Nav.Link>
-                        " "
+                        
                         <Nav.Link className="banner-link" href="/about">
                             <HiAnnotation size="25"/> About
                         </Nav.Link>
-                        " "
+                        
                         <Nav.Link className="banner-link" href="/code">
                             <AiFillCode size="25"/> Code  
                         </Nav.Link>
-                        " "
+                        
                         <Nav.Link className="banner-link" href="/graphicdesign">
                             <SiAdobephotoshop size="25"/> Graphic Design  
                         </Nav.Link>
-                        " "
+                        
                         <Nav.Link className="banner-link" href="/objective">
                             <BsFillBookmarkFill size="25"/> Objective
                         </Nav.Link>

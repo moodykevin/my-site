@@ -28,12 +28,12 @@ const graphicdesign = () => {
                         <h1 className="helloThere">Snapback Sports</h1>
                         <h4 className="white">
                             Snapback Sports is a sports-based social media platform that is seeking to create
-                            the next generation of sports fans. I was a loyal follower of Snapback until about 3
+                            the next generation of sports fans. I was a follower of Snapback until about 3
                             years ago, when I got an opportunity to showcase my talent to the CEO, Jack Settleman.
-                            I began officially freelancing in January of 2020. As the business has continued to grow
+                            I began working part-time in January of 2020. As the business has continued to grow
                             to a 7 figure revenue last year, my responsibilities have increased, to the point where
-                            I am generating about 50 graphics per week. Snapback Sports continues to grow, hiring new
-                            editors and talents. Most recently, I have been the leading the R&D of a new logo design.
+                            I'm now generating around 50 graphics per week. Snapback Sports continues to grow, hiring new
+                            editors and talents. Most recently, I have been the leading the R&D of a new logo and branding.
                         </h4>
                         <a href="https://www.snapbacksports.com/" ><AiOutlineLink className="gh-link" size="50"/></a>
                         <a href="https://www.youtube.com/c/SnapBackSportsbyJack" ><AiFillYoutube className="gh-link" size="50"/></a>

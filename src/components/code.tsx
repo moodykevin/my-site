@@ -44,7 +44,8 @@ const code = () => {
                                     Django as an introduction to frameworks and software architectural patterns,
                                     and is deployed through Heroku.
                                 </h5>
-                                <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <h5 className="white">This source code will be published at the end of the semester, in early December</h5>
+                                {/* <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a> */}
                                 <a target="_blank" href="https://newlouslist-a-26.herokuapp.com/" ><AiOutlineLink className="gh-link" size="50"/></a>
 
                             </Col>
@@ -60,6 +61,7 @@ const code = () => {
                                     composed of a data path, opcode decoder, CPU, ALU, registers, and more. The
                                     computer was able to write and run programs using simplified machine language.
                                 </h5>
+                                <h5 className="white">To most effectively view these files, please view the "Assignment Report .docx" files</h5>
                                 <a target="_blank" href="https://github.com/moodykevin/digital_logic_design" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
@@ -74,8 +76,9 @@ const code = () => {
                                     trees, graphs, and more. During the semester, we learned x86 and even wrote snippets
                                     of machine code through an online simulator.
                                 </h5>
-                                <a target="_blank" href="https://github.com/moodykevin/prog_data_representation" ><AiFillGithub className="gh-link" size="50"/></a>
-
+                                <h5 className="white">
+                                    Please email me at kevinmoody16@gmail.com for access to this repo!
+                                </h5>
                             </Col>
                         </Row>
                     </Container>

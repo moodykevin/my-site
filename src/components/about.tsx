@@ -33,8 +33,8 @@ const about = () => {
                             I grew up in Billerica, Massachusetts and graduated from Lexington Christian Academy
                             in the spring of 2020. Now, I split my time between Billerica and Charlottesville VA,
                             where the University of Virginia is located. I'm studying Computer Science in the
-                            School of Engineering and Applied Sciences, and I'm seeking to pick up a minor in
-                            Engineering Business before I graduate.
+                            School of Engineering and Applied Sciences, and I'm seeking minor in
+                            Business as well.
                         </p>
                     </Col>
                     <Col md="4">
@@ -59,7 +59,7 @@ const about = () => {
                         <h1 className="white">My Life:</h1>
                         <p className="white lefty about-text">
                             I spend my summers splitting my time between MA and Swanzey NH, where my family spends
-                            up to two months at a christian-affiliated family camp. In fact, I worked in the kitchen
+                            up to two months at a christian family camp. In fact, I worked in the kitchen
                             at the camp during summer of 2019. I'm a huge sports fan, and grew up watching Tom Brady
                             and the Patriots every sunday in the fall. This love for sports of mine has grown, into
                             the point now where I work part-time for several sports companies. Other than than, I'm often
@@ -72,10 +72,9 @@ const about = () => {
                     <Col md="8">
                         <h1 className="white">Development:</h1>
                         <p className="white lefty about-text">
-                            I learned the basics of how to code through Khan Academy when I was in middle school. However,
-                            I moved into college with the intention of studying Mechanical or Aerospace Engineering. In the spring
-                            semester of my First-year when it came time to declare a major, I was taking Intro to CS and MultiVar Calc
-                            at the same time, and realized that I liked coding a lot more than calculus. I declared officially as
+                            I learned the basics of how to code via Khan Academy when I was in middle school. However,
+                            I began college with the intention of studying Mechanical or Aerospace Engineering. Over my
+                            first year, I realized that I liked coding a lot more than calculus. I declared officially as
                             a computer science major, and began taking CS classes that fall. While at UVA, I've been 
                             learning Python, Java, C++, and MATLAB through my math courses. During this time 
                             I've interned at Raytheon Technologies for two consecutive summers as an Digital Business Managmenet intern, 

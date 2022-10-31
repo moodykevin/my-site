@@ -41,11 +41,9 @@ const objective = () => {
             <Container fluid className="about-section">
                 <br></br>
                 <Row>
-                    <Col md="11">
                     <Animator animation={MoveIn(0, -500)}>
-                    <h1 className = "white-header-text" style = {{fontSize:'80px'}}>STATEMENT:</h1>
+                    <h1 className = "white-header-text" style = {{fontSize:'80px'}}>STATEMENT</h1>
                     </Animator>
-                    </Col>
                 </Row>
                 <br></br><br></br><br></br><br></br>
                 <Row>
