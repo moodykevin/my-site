@@ -77,7 +77,7 @@ const code = () => {
                                     of machine code through an online simulator.
                                 </h5>
                                 <h5 className="white">
-                                    Please email me at kevinmoody16@gmail.com for access to this repo!
+                                    { <a target="_blank" href="https://github.com/moodykevin/prog_data_representation" ><AiFillGithub className="gh-link" size="50"/></a> }
                                 </h5>
                             </Col>
                         </Row>
