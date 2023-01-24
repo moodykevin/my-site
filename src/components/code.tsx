@@ -44,9 +44,9 @@ const code = () => {
                                     Django as an introduction to frameworks and software architectural patterns,
                                     and is deployed through Heroku.
                                 </h5>
-                                <h5 className="white">This source code will be published at the end of the semester, in early December</h5>
-                                {/* <a target="_blank" href="https://github.com/moodykevin/" ><AiFillGithub className="gh-link" size="50"/></a> */}
-                                <a target="_blank" href="https://newlouslist-a-26.herokuapp.com/" ><AiOutlineLink className="gh-link" size="50"/></a>
+                                <h5 className="white">The site itself will be up and running by the end of January.</h5>
+                                <a target="_blank" href="https://github.com/moodykevin/New-Lous-List" ><AiFillGithub className="gh-link" size="50"/></a>
+                                {/*<a target="_blank" href="https://newlouslist-a-26.herokuapp.com/" ><AiOutlineLink className="gh-link" size="50"/></a> */}
 
                             </Col>
                         </Row>
