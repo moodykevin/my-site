@@ -36,7 +36,6 @@ const code = () => {
                             <Col md="5">
                                 <ImCalendar size="240" color="white"/><br></br><br></br>
                                 <h1 className="white">Course Scheduling</h1>
-                                <h3 className="white">(IN DEVELOPMENT)</h3>
                                 <h5 className="white">
                                     As a final project for my Software Engineering course, my team and I
                                     are building a website to replace a former course scheduling site that
